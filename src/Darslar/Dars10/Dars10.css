@@ -1,0 +1,123 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+
+.nav {
+   display: flex;
+   width: 100%;
+   height: 75px;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   z-index: 4;
+   background: rgba(0, 0, 0, .2);
+   color: white;
+}
+
+.nav .navLogo {
+   width: 150px;
+   padding: 10px;
+   letter-spacing: 4px;
+}
+
+.nav .navMenu {
+   display: flex;
+   gap: 20px;
+   letter-spacing: 1px;
+   padding: 10px;
+   padding-right: 20px;
+}
+
+div a {
+   font-weight: 500;
+   text-decoration: none;
+   color: white;
+}
+
+/* home */
+.home {
+   background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 1)), center/cover no-repeat url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Model-X-Main-Hero-Desktop-LHD");
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 120vh;
+   align-items: center;
+}
+
+.homeBottom {
+   text-align: center;
+   color: white;
+}
+
+.homeTexts {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+}
+
+.homeBottom button {
+   padding: 5px 50px;
+   font-weight: 500;
+   font-size: 19px;
+   background: white;
+   border: none;
+
+}
+
+.homeBottom button:nth-child(3) {
+   background: transparent;
+   border: 2px solid white;
+   margin-left: 30px;
+}
+
+/* two */
+.two {
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+   color: white;
+   background: linear-gradient(to top, transparent, transparent, rgba(0, 0, 0, 5)), center/cover no-repeat url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Model-X-Interior-Hero-Desktop-LHD");
+}
+
+.three {
+   width: 100%;
+   height: 100vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.three video {
+   width: 80%;
+   height: 80%;
+}
+
+.four {
+   background-color: black;
+   color: white;
+}
+
+.spans {
+   width: 70%;
+   margin: auto;
+}
+
+.four span {
+   padding: 1px 7px;
+   border-radius: 50%;
+   background-color: gray;
+   color: gray;
+   margin: 10px;
+   transition: 0.3s;
+}
+
+.four span:hover {
+   background-color: white;
+   color: white;
+}

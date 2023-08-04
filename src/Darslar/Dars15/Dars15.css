@@ -1,0 +1,39 @@
+.logo {
+   width: 100%;
+   height: 75px;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   z-index: 3;
+   color: white;
+}
+.logo h1 {
+   padding: 10px 50px;
+}
+.header {
+   display: flex;
+   height: 100vh;
+   position: relative;
+}
+
+.header1 {
+   width: 40%;
+   background: center/cover url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/be4268f15125547f891f37c9/pexelsphoto3659861.jpeg");
+}
+
+.header2 {
+   width: 20%;
+   background-color: orange;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header2 h1 {
+   padding: 10px 120px;
+}
+
+.header3 {
+   width: 40%;
+   background: center/cover url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/b997f5453a025796b7e011f6/pexelsphoto3659862.jpeg");
+}

@@ -1,0 +1,136 @@
+/* .bolimlar {
+   text-align: center;
+   width: 85px;
+   background-color: #1f1f1f;
+   height: 100vh;
+   color: gray;
+}
+
+.bolimlar .bolim:active {
+   transition: 0.2s;
+   color: dodgerblue;
+}
+
+.bolimlar i {
+   display: block;
+   font-size: 20px;
+}
+
+
+.menu {
+   background: #2b2a2a;
+   width: 600px;
+   height: 100vh;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.menu .input {
+   text-align: center;
+}
+.menu input {
+   padding: 6px;
+   padding-left: 20px;
+   border-radius: 20px;
+   border: none;
+   width: 400px;
+   outline: none;
+   background-color: #6b6b6b;
+   color: gainsboro;
+   margin: 10px;
+}
+.input input::placeholder {
+   color: gainsboro;
+}
+.item {
+   display: flex;
+   color: white;
+   align-items: center;
+   height: 90px;
+   transition: 0.3s;
+}
+.item:hover {
+   background-color: darkgray;
+}
+.item img {
+   width: 60px;
+   height: 60px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.item .cards {
+   padding: 7px;
+   width: 450px;
+   height: 70px;
+   overflow: hidden;
+}
+
+.chats {
+   width: 70%;
+   height: 80px;
+   background: #2b2a2a;
+   color: white;
+}
+.pro {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.pro .proIcon i {
+   padding: 0px 10px;
+} */
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   height: 55px;
+   align-items: center;
+}
+
+.container .menu {
+   display: flex;
+   gap: 10px;
+   font-size: 20px;
+}
+
+.menu a {
+   text-decoration: none;
+   color: black;
+}
+
+.icons {
+   display: flex;
+   gap: 20px;
+   font-size: 22px;
+   align-items: baseline;
+}
+
+.media {
+   display: none;
+}
+
+@media screen and (max-width:768px) {
+   .container {
+      display: block;
+      overflow: hidden;
+      padding: 10px;
+      transition: 0.3s;
+   }
+   .media {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+   }
+
+   .menu {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .menu a {
+      display: block;
+   }
+
+
+}
